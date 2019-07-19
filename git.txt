@@ -1,0 +1,26 @@
+1. Create a repository in GitHub
+2a. If the repository is empty and your source is local, then run:
+
+git add . 
+ Note: . is for all the files
+
+git commit -m "first commit"
+
+git remote add origin https://github.com/ngaisteve1/git.git
+
+git push -u origin master
+
+
+
+2b. If the repository is already there with source, then run:
+
+git clone https://github.com/ngaisteve1/git.git .
+
+
+3. To create a branch and merge the branch to trunk, then run:
+
+git checkout -b branchName
+
+git pull
+
+git merge
