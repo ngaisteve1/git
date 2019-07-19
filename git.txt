@@ -23,4 +23,12 @@ git checkout -b branchName
 
 git pull
 
+<<<<<<< HEAD
 git merge branchName
+=======
+git merge
+
+==========================
+
+Footer
+>>>>>>> footer
